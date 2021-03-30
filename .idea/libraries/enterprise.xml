@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="enterprise">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/enterprise/flyway-core-7.7.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/enterprise/flyway-commandline-7.7.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
