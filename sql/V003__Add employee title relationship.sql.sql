@@ -1,6 +1,9 @@
-ALTER TABLE employees ADD title_id INT NOT NULL;
+CREATE VIEW employee_positions AS
 
-ALTER TABLE employees ADD CONSTRAINT employees_titles_title_id
-	FOREIGN KEY (`title_id`)
-	REFERENCES `titles`(`id`);
+SELECT employees.id AS employee_id,
+	first_name,
+	last_name,
+	title
+FROM employees
+	LEFT JOIN titles on employees.title_id = titles.id
 
